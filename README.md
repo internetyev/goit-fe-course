@@ -1,9 +1,9 @@
-# goit-h01
-GoIT Homework01 by Andrei Terentyev
-Date: 2019-03-22
+# GoIT Frontend Course #14
 
-## How to view this page
+This git repo contains GoIT Homeworks by Andrei Terentyev
 
-To view this repo, click on the link below:
+## HTML/CSS
 
-[Homework-01](http://htmlpreview.github.io/?http://github.com/internetyev/goit-h01/blob/master/index.html)
+### Module 01
+
+[Module-01 homework](http://htmlpreview.github.io/?https://github.com/internetyev/goit-fe-course/blob/master/html-css/module-01/index.html)
