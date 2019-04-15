@@ -51,7 +51,8 @@ body {
 }
 
 .main-wrapper {
-    margin: 0 0 150px;
+    margin: 0;
+    padding-bottom: 150px;
 }
 
 .article-wrapper {
