@@ -203,6 +203,13 @@ h2.section-title:after {
     content: '$';
 }
 
+.img-wrapper:hover + .item-name + .item-price {
+    background-color: #7fd9c7;
+} 
+.img-wrapper:hover + .item-name {
+    background-color: #1abc9c;
+}
+
 
 /* BLOG SECTION */
 
