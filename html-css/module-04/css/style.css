@@ -172,7 +172,7 @@ h2.section-title:hover:after {
     text-transform: uppercase;
     padding: 0;
     padding-left: 14px;
-    padding-top: 13px;
+    padding-top: 11px;
     margin: 0;
     width: 200px;
     height: 40px;
@@ -187,7 +187,7 @@ h2.section-title:hover:after {
     background: #8c8c8c;
     font-family: 'Roboto Black', 'Roboto', sans-serif;
     font-size: 18px;
-    padding-top: 13px;
+    padding-top: 11px;
     margin: 0;
     width: 55px;
     height: 40px;
