@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
 @import url('reset.css');
+@import url('pe-icon-7-stroke.css');
+@import url('helper.css');
 
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Open Sans', sans-serif; */
+
+:root {
+    --nav-color: #1abc9c;
+}
 
 html {
     color: #0f0101;
@@ -29,15 +35,15 @@ body {
 }
 
 .header-wrapper {
-    margin: 0;
+    margin: 0 auto;
+    width: 1110px;
+    height: 54px;
     padding-top: 36px;
-    padding-bottom: 105px;
 }
 
 
 .logo a {
     font-family: 'Roboto', sans-serif;
-    display: inline-block;
     font-size: 30px;
     line-height: 32px;
     float: left;
@@ -48,7 +54,7 @@ body {
 .logo a::first-letter {
     font-family: 'Roboto Black', 'Roboto', sans-serif;
     font-weight: 900;
-    color: #1abc9c;
+    color: var(--nav-color);
 }
 
 .top-menu {
@@ -80,8 +86,71 @@ body {
 }
 
 .header-wrapper ul li a:hover {
-    color: #1abc9c;
+    color: var(--nav-color);
 }
+
+/* SLIDER */
+
+.slider {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./../img/slide4.png");
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+}
+
+.leftnav, .rightnav {
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    background-color: var(--nav-color);
+    color: white;
+    font-size: 105px;
+    top: 226px;
+}
+
+.leftnav {
+    left: calc(50% - 555px); 
+}
+
+.rightnav {
+    right: calc(50% - 555px);
+}
+
+.slidercontent {
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    top: 218px;
+    left: 186px;
+}
+
+.slidertitle {
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: -1px;
+    font-family: 'Roboto Black', 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.slidersubtitle {
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    font-family: 'Roboto Light', 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 54px;
+    top: 82px;
+}
+
+ /* END OF SLIDER  */
 
 .main-wrapper {
     margin: 0 0 150px;
@@ -105,7 +174,7 @@ h2.section-title:hover:after {
     content: "";
     display: block;
     max-width: 165px;
-    border-bottom: 7px solid #1abc9c;
+    border-bottom: 7px solid var(--nav-color);
     margin: 30px auto -37px;
 }
 
@@ -208,7 +277,7 @@ h2.section-title:hover:after {
 }
 
 .img-wrapper:hover+.item-name {
-    background-color: #1abc9c;
+    background-color: var(--nav-color);
 }
 
 
@@ -259,7 +328,7 @@ h2.section-title:nth-child(2) {
     content: "";
     display: block;
     max-width: 135px;
-    border-bottom: 3px solid #1abc9c;
+    border-bottom: 3px solid var(--nav-color);
     margin: 15px auto -18px 0;
 }
 
@@ -283,7 +352,7 @@ h2.section-title:nth-child(2) {
     font-weight: 300;
     width: 160px;
     height: 50px;
-    background-color: #1abc9c;
+    background-color: var(--nav-color);
     border-radius: 3px;
     border: 0;
     color: #fff;
