@@ -15,3 +15,7 @@ This git repo contains GoIT Homeworks by Andrei Terentyev
 ### Module 04
 
 [Module-04 homework](http://htmlpreview.github.io/?https://github.com/internetyev/goit-fe-course/blob/master/html-css/module-04/index.html)
+
+### Module 05
+
+[Module-05 homework](http://htmlpreview.github.io/?https://github.com/internetyev/goit-fe-course/blob/master/html-css/module-05/index.html)
